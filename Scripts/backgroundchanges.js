@@ -11,6 +11,13 @@ const images = [
     'https://raw.githubusercontent.com/denyakushnirchuk-glitch/PlaneComparison/main/photos/VUE320.JPG'
 ];
 
+const preloadedImages = [];
+images.forEach(src => {
+    const img = new Image();
+    img.src = src;
+    preloadedImages.push(img);
+});
+
 let currentIndex = 0;
 
 function changeBackground() {
@@ -18,6 +25,8 @@ function changeBackground() {
     currentIndex = (currentIndex + 1) % images.length;
 }
 
+
 changeBackground();
+
 
 setInterval(changeBackground, 10000);

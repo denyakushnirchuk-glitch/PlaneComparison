@@ -1,6 +1,6 @@
 body {
     display: flex;
-    background-image: url(photos/B738NOZ.JPG);
+    background-image: url(src/photos/B738NOZ.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
@@ -86,14 +86,14 @@ body {
     background-color: #3b42526e;
     height: 300px;
     margin-top: 100px;
-    border-radius: 20px;
+    border-radius: 5.5px;
     display: flex;
     flex-direction: column;
 }
 .heading {
     height: 70%;
     width: 100%;
-    border-radius: 20px; 
+    border-radius: 5.5px; 
     background-color: transparent;
     text-align: center;
     justify-content: center;
@@ -118,7 +118,7 @@ body {
     height: 50px;
     background-color: #3b42526e;
     margin-top: 20px;
-    border-radius: 20px;
+    border-radius: 5.5px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
